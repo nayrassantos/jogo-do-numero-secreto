@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [] // criação da lista antes dos comandos
-let numeroLimite = 100; // limite de numeros que podem ser sorteados, começa na linha 2 antes do gerar numero aleatorio
+let numeroLimite = 50; // limite de numeros que podem ser sorteados, começa na linha 2 antes do gerar numero aleatorio
 let numeroSecreto = gerarNumeroAleatorio()
 let tentativa = 1; //já começa com 1 porque a primeira tentiva já conta.
 exibirTextoInicial()
@@ -18,7 +18,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 function exibirTextoInicial(){
 exibirTextoNaTela("h1", "Boas vindas ao jogo do número secreto!");
-exibirTextoNaTela("p", "Selecione um número de 1 a 100");
+exibirTextoNaTela("p", "Selecione um número de 1 a 50");
 }
 
 function verificarChute(){
