@@ -1,7 +1,7 @@
 let listaDeNumerosSorteados = [] // criação da lista antes dos comandos
 let numeroLimite = 20; // limite de numeros que podem ser sorteados, começa na linha 2 antes do gerar numero aleatorio
 let numeroSecreto = gerarNumeroAleatorio()
-let tentativa = 2; //já começa com 1 porque a primeira tentiva já conta.
+let tentativa = 1; //já começa com 1 porque a primeira tentiva já conta.
 exibirTextoInicial()
 
 function exibirTextoNaTela(tag, texto) {
