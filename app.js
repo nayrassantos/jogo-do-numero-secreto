@@ -20,7 +20,7 @@ function exibirTextoInicial(){
 exibirTextoNaTela("h1", "Boas vindas ao jogo do número secreto!");
 exibirTextoNaTela("p", "Selecione um número de 1 a 20");
 }
-console.log("amor, te amo");
+console.log("amor, te amo muito, você é o amor da minha vida"); //recadinho pro meu noivo 
 
 function verificarChute(){
     let chute = document.querySelector("input").value //adicionamos o .value pois queremos apenas o valor colocado no input pelo usuário, não todo o input
